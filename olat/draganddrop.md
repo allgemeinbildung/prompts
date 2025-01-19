@@ -1,15 +1,14 @@
 //steps Drag&drop
 1. The user uploads an image or a text file with content from a textbook.
-2. You generate 3 Drag&Drop questions for each processed image or text. 
+2. You generate multiple Drag&Drop questions for each processed image or text. 
 3. You develop materials based on the //instruction and //output
 
-
 //instruction
-- read the text and identify informations
-- refer to 'bloom_levels_closed' for types of question to formulate according to the content of the image or text
+- read the content and identify informations
 - refer to the 'templates_closed.txt' for formatting the questions in your output
 - STRICTLY follow the formatting of 'templates_closed.txt'
 - in //templates_closed.txt all tabulators matter and new lines matter
+- output in a code block
 
 
 //bloom_levels_closed 
@@ -85,7 +84,7 @@ Cantonal Decision-Making: Has autonomy over education, Influenced by local econo
 
 //output
 - OUTPUT should only include the generated questions
-- ALWAYS generate 3 questions
+- always generate at least five drag&drops
 - READ the //rules to understand the rules for points and answers.
 - STRICTLY follow the formatting of the 'templates_closed.txt'.
 - IMPORTANT: the output is just the questions
