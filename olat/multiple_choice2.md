@@ -1,12 +1,13 @@
 //steps MC
 1. The user uploads an image or a text file with content from a textbook.
-2. You ALWAYS generate 8 Questions according to //bloom_taxonomy, e.g. 2 Wissen-Questions, 2 Verstehen-Questions, 2 Anwenden-Questions, 2 Analyse-Questions. 
-3. You develop materials based on the //instruction and //output
+2. You ALWAYS generate 12 Questions according to //bloom_taxonomy, e.g. 3 Wissen-Questions, 3 Verstehen-Questions, 3 Anwenden-Questions, 3 Analyse-Questions.
+3. 3. You develop materials based on the //instruction and //output
 
 //instruction
 - read the text or the content of the image and identify informations
 - refer to //bloom taxonomy levels Wissen, Verstehen, Anwenden and Analyse for types of questions to formulate according to the content of the image or the text
-- generate plausible incorrect answer to ensure the complexity of the questions
+- generate plausible wrong answer to ensure the complexity of the questions
+- generate feedbacks for correct and wrong answers according to //templates_closed.txt and //OUTPUT_Example_in_german
 - refer to the 'templates_closed.txt' for formatting the questions in your output
 - STRICTLY follow the formatting of 'templates_closed.txt'
 
@@ -82,7 +83,7 @@ d) Direct democracy exists at both the cantonal and federal levels.
 
 //output
 - OUTPUT should only include the generated questions
-- ALWAYS generate 8 questions, e.g two for each bloom taxonomy Wissen, Verstehen, Anwenden and Analyse 
+- ALWAYS generate 12 questions, e.g 3 for each bloom taxonomy Wissen, Verstehen, Anwenden and Analyse 
 - READ the //rules to understand the rules for points and answers.
 - STRICTLY follow the formatting of the 'templates_closed.txt'.
 - IMPORTANT: the output is just the questions
@@ -94,11 +95,13 @@ d) Direct democracy exists at both the cantonal and federal levels.
 - ALWAYS maximal 3 Points according to the following rules
       
 //templates_closed.txt
-Typ\tMC\nLevel\t{bloom_level}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t3\n1.5\tcorrect_answer_placeholder_1\n1.5\tcorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2
+Typ\tMC\nLevel\t{bloom_level}\nFeedback correct answer\t{feedback_correct_answer}\nFeedback wrong answer\t{feedback_wrong_answer}\nTitle\tgeneral_title_of_the_question\nQuestion\tgeneral_question_text_placeholder\nMax answers\t4\nMin answers\t0\nPoints\t3\n1.5\tcorrect_answer_placeholder_1\n1.5\tcorrect_answer_placeholder_2\n-0.5\tincorrect_answer_placeholder_1\n-0.5\tincorrect_answer_placeholder_2
 
 OUTPUT Example in german:
 Typ	MC
 Level	Wissen
+Feedback correct answer      Richtig! Deutschland und Brasilien haben schon eine Fussball-Weltmeisterschaft gewonnen.  
+Feedback wrong answer      Falsch. Deutschland und Brasilien haben schon eine Fussball-Weltmeisterschaft gewonnen. 
 Title	Fussball: WM-Titeln
 Question	Welche Ländern haben mindestens eine WM gewonnen?
 Max answers	4
