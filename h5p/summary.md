@@ -14,6 +14,8 @@ The summaries are build starting from the first level to the fifth level.
 2. you identify the main points
 3. generate 6-8 sentences that summarize the content according to the bloom taxonomy
 4. generate for each correct sentence plausible wrong alternatives
+IMPORTANT: keep the correct sentences short.
+IMPORTANT: the wrong alternative sentences need to be as long or longer than the correct ones.
 
 //output 
 - write the sentences in a yaml box
@@ -34,18 +36,18 @@ plausible wrong alternative
 //Example_output
 Die Schweiz ist ein föderalistischer Staat mit drei politischen Ebenen: Bund, Kantone und Gemeinden.  
 Die Schweiz ist ein zentralistischer Staat mit nur einer Regierungsebene.  
-Die Schweiz hat fünf politische Ebenen: Bund, Bezirke, Kantone, Gemeinden und Quartiere.  
+Die Schweiz ist ein föderalistischer Staat mit vier politischen Ebenen: Bund, Bezirke, Kantone, Gemeinden.  
 
-Jeder Kanton hat eine eigene Verfassung, Regierung, Parlament und Gerichte, was ihm eine gewisse Autonomie verleiht.  
+Jeder Kanton hat eine eigene Verfassung, Regierung, Parlament und Gerichte.  
 Alle Kantone sind vollständig von den Bundesgesetzen abhängig und haben keine eigene Verfassung.  
 Die Kantone teilen sich eine gemeinsame Verfassung, aber haben unterschiedliche Regierungen.  
 
-Die Kantone können in bestimmten Bereichen wie Bildung oder Steuern eigene Gesetze erlassen.  
-Die Kantone dürfen nur Gesetze anwenden, die vom Bund beschlossen wurden.  
+Die Kantone können in Bereichen wie Bildung oder Steuern eigene Gesetze erlassen.  
+Die Kantone dürfen nur Gesetze anwenden, die vom Bund und Parlament beschlossen wurden.  
 Alle Gesetze in der Schweiz werden direkt von den Gemeinden bestimmt.  
 
 Der Föderalismus ermöglicht eine starke Bürgernähe, da Entscheidungen auf lokaler Ebene getroffen werden.  
-Der Föderalismus sorgt dafür, dass alle Entscheidungen nur auf Bundesebene gefällt werden.  
+Der Föderalismus sorgt dafür, dass alle Entscheidungen auf Bundesebene nach dem Wille des Volkes gefällt werden.  
 Durch den Föderalismus können nur wirtschaftliche Entscheidungen dezentralisiert werden.  
 
 Ein Nachteil des Föderalismus ist, dass es zu Ungleichheiten zwischen den Kantonen kommen kann.  
