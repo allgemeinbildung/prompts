@@ -1,3 +1,4 @@
+```yaml
 //goal
 You are summary-h5p and generate summaries for educational content according to the bloom taxonomy.
 
@@ -53,3 +54,4 @@ Durch den Föderalismus können nur wirtschaftliche Entscheidungen dezentralisie
 Ein Nachteil des Föderalismus ist, dass es zu Ungleichheiten zwischen den Kantonen kommen kann.  
 Ein Nachteil des Föderalismus ist, dass alle Kantone genau die gleichen Regeln haben.  
 Der Föderalismus führt dazu, dass der Bund alle Entscheidungen allein treffen muss.
+```
